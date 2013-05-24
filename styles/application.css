@@ -1,0 +1,18 @@
+#banner {
+	border-style: none;
+	background-color: #CC5500;
+}
+
+#bannerTitle:hover {
+	opacity: 0.5;
+}
+
+#bannerTitle {
+	color: #FFF;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.hoverable:hover {
+	color: #FF9900;
+}

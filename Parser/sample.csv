@@ -1,0 +1,37 @@
+name,eid,stdnt type,lse,gender,class,major code,school code,school name,country code,special,irreg
+"Veltman, Boris",eid001,REG,2010,M,FRESHMAN,1,1,Cockrell School of Engineering,1,x,
+"Reutzel, Brittany",eid002,VS,2010,F,sophomore,2,2,College of Communication,2,,
+"Stephan, Mitch",eid003,REG,2010,M,junior,3,3,College of Education,3,,A0400
+"Joeson, Joe",eid004,REG,2010,M,senior,4,4,College of Fine Arts,4,x,A0400
+"adsfsd, sdfad",eid005,REG,2010,F,masters,5,5,College of Liberal Arts,5,,
+"abc, def",eid006,VS,2010,F,doctoral,6,6,College of Natural Sciences,6,,
+"abc, def",eid007,VS,2010,F,pharmD,7,7,College of Pharmacy,7,,
+"abc, def",eid008,VS,2011,F,freshman,8,8,Dell Medical School,8,,
+"abc, def",eid009,VS,2011,F,sophomore,9,9,Graduate School,9,,
+"abc, def",eid010,VS,2011,F,junior,10,10,Jackson School of Geosciences,10,,
+"abc, def",eid011,REG,2011,F,senior,11,11,Lyndon B. Johnson School of Public Affairs,1,,
+"abc, def",eid012,REG,2011,F,masters,12,12,McCombs School of Business,2,,
+"abc, def",eid013,REG,2011,F,doctoral,13,13,School of Architecture,3,,A0400
+"abc, def",eid014,REG,2011,F,pharmD,14,14,School of Information,4,x,
+"abc, def",eid015,REG,2011,F,law,15,15,School of Law,5,x,A0400
+"abc, def",eid016,VS,2011,F,sophomore,16,16,School of Nursing,6,,
+"abc, def",eid017,VS,2011,m,junior,17,17,School of Social Work,7,,
+"abc, def",eid018,VS,2011,m,senior,18,18,School of Undergraduate Studies,8,,
+"abc, def",eid019,REG,2012,F,masters,1,1,Cockrell School of Engineering,9,,
+"abc, def",eid020,REG,2012,F,doctoral,2,2,College of Communication,10,,
+"abc, def",eid021,REG,2012,F,pharmD,3,3,College of Education,1,,
+"abc, def",eid022,REG,2012,F,FRESHMAN,4,4,College of Fine Arts,2,,
+"abc, def",eid023,REG,2012,M,sophomore,5,5,College of Liberal Arts,3,,
+"abc, def",eid024,REG,2012,M,junior,6,6,College of Natural Sciences,4,,
+"abc, def",eid025,REG,2012,M,senior,7,7,College of Pharmacy,5,,
+"abc, def",eid026,REG,2012,M,masters,8,8,Dell Medical School,6,,
+"abc, def",eid027,REG,2012,M,doctoral,9,9,Graduate School,7,,
+"abc, def",eid028,REG,2012,M,pharmD,10,10,Jackson School of Geosciences,8,,
+"abc, def",eid029,REG,2012,M,FRESHMAN,11,11,Lyndon B. Johnson School of Public Affairs,9,,A0400
+"abc, def",eid030,REG,2012,M,sophomore,12,12,McCombs School of Business,10,,
+"abc, def",eid031,REG,2012,M,junior,13,13,School of Architecture,1,x,A0400
+"abc, def",eid032,REG,2012,M,senior,14,14,School of Information,2,x,A0400
+"abc, def",eid033,REG,2012,M,law,15,15,School of Law,3,x,A0400
+"abc, def",eid034,VS,2012,M,doctoral,16,16,School of Nursing,4,,
+"abc, def",eid035,VS,2012,M,pharmD,17,17,School of Social Work,5,,
+"abc, def",eid036,VS,2012,M,DOCTORATE,18,18,School of Undergraduate Studies,6,,

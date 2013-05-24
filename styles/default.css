@@ -1,0 +1,413 @@
+@charset "utf-8";
+
+/* UTIO sub1 page template */
+
+@font-face {
+  font-family: avenir;
+   src: url('http://wwwtest.utexas.edu/intl_new/images/avenir.otf');
+ }
+
+a{color: #521912;}
+a:hover {color: #FF6600;}
+
+
+td.contentheading{
+      margin: 15px 0 10px -3px;
+      display: block;
+      width: 690px;
+      background-color: #511912;
+      color: #fff;
+      padding: 10px 0 10px 10px;
+      font-size: 105%;
+}
+
+#splashsup h3{
+       color: #949339 !important;
+       font-size: 95% !important; 
+       font-weight: bold !important;
+}
+
+#splashsup p{
+       color: #626262;
+       font-size: 80%;
+}
+
+#leftcol  h3{
+       
+       font-weight: normal;
+       color: #58705c;
+       margin: 0;
+}
+
+
+#header_hotslider{
+        padding:0;
+        margin: 0;
+        width: 700px;
+        float: right;
+}
+#mainContent p.logographic {
+	margin: 0;
+}
+.intro p a b{
+        color: #818421;
+        display: block;
+        line-height: 22px;
+        padding: 0 0 5px 0;
+        font-size: 18px;
+        font-weight: normal;
+}
+
+.intro p a{
+        text-decoration: none;
+}
+
+.intro img {
+        margin: 5px;
+}
+
+
+body {
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+	background-color: #CCCCCC;
+	background-image: url(../images/bck.jpg);
+	background-repeat: repeat-y;
+	background-position: center;
+}
+#container {
+	width: 940px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	background: #FFFFFF; /* the auto margins (in conjunction with a width) center the page */
+	text-align: left; /* this overrides the text-align: center on the body element. */
+        padding: 0 40px 0 40px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+#logo {
+	margin-bottom: 5px;
+}
+#header {
+
+	width: 100%;
+	float: left;
+	/*padding-top: 10px;*/
+}
+
+#hypernav {
+	float:right;
+	font-size: 70%;
+	margin: 0px 0 20px 0;
+}
+#topnav {
+	clear:both;
+	float:right;
+	font-size: 85%;
+	color: #FFFFFF;
+    /*padding-bottom: 5px;*/    
+	background-color: #501B14;
+	/*margin-top: 20px;*/
+}
+#sa_logo {
+	/*float:left;*/
+	padding-top: 25px;
+}
+
+#sa_logo h3 {
+    text-transform: uppercase;
+	font-size: 150%;
+	color: #e2631f;
+    font-family: avenir-heavy, Verdana, sans-serif;
+    font-weight: normal;
+    margin: 0;
+    
+}
+
+#hypernav div.moduletable, #hypernav form, #hypernav form div.search, #hypernav p{
+        display: inline;
+}
+
+#hypernav, #hypernav a{
+        color: #58705c;
+        text-decoration: none;
+}
+
+#hypernav a:hover{
+        text-decoration: underline;
+}
+
+#hypernav form input{
+        background-color: #d1d8d2;
+        border: 0;
+}
+
+#hypernav form input.button{
+        margin-bottom: -2px;
+}
+
+#topnav ul {
+padding: 6px;
+color: #ffffff;
+white-space: normal;
+margin: 0px;
+}
+
+#topnav li {
+background-color: #501B14;
+list-style-type: none;
+display: inline;
+padding: 5px 12px;
+}
+
+#topnav li a {
+text-decoration: none;
+padding: 5px 5px 5px 0px;
+color: #ffffff;
+}
+#topnav li a:link {
+color: #ffffff;
+}
+#topnav li a:visited {
+color: #ffffff;
+}
+#topnav li a:hover, #topnav li:hover, #topnav li:hover a {
+color: #501B14;
+background-color: #fff;
+}
+
+/* #mainnav styles moved to modules/mod_superfishmenu/tmpl/css/superfish.css
+in order to only have to be changed in one place */
+
+
+
+#splash {
+	background-image: url(../images/splashbck.jpg);
+	background-repeat: repeat-y;
+	width:940px;
+}
+
+
+
+#leftcol {
+	float: right;
+	width: 240px;
+        
+}
+
+
+#saform_sub {
+	background-color: #DBE3D6;
+	background-image: url(../images/squares.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+	padding: 20px 20px 10px; 20px;
+}
+
+#saform h2, #saform_sub h3 {
+	color: #758372;
+	font-weight: normal;
+	font-size: 16px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+#threecol {
+	clear: both;
+	margin-top: 23px;
+	margin-bottom: 20px;
+	font-size: 80%;
+	line-height: 130%;
+	color: #666666;
+}
+
+#threecola {
+	float:left;
+	width: 340px;
+	margin-right: 20px;
+	
+}
+
+#threecol h3 {
+	padding:0;
+	margin:0;
+	color: #FFFFFF;
+	font-weight: normal;
+	font-size: 100%;
+	background-image: url(../images/squares.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+	padding: 0px;
+	background-color: #B4C8AC;
+	padding:13px 10px 9px 10px;
+	text-transform: uppercase;
+}
+
+
+#threecolb {
+	float:left;
+	width: 340px;
+	margin-right: 20px;
+}
+
+#threecolc {float:left; width: 220px;}
+
+#footer {
+	background-image: url(../images/footerbck.gif);
+	background-repeat: no-repeat;
+	clear: both;
+	padding-top: 40px;
+	text-align:right;
+	width: 940px;
+	background-position: 0px 20px;
+	font-size: 70%;
+	margin-bottom:20px;
+	
+}
+
+
+#footer ul {
+	padding: 2px;
+	color: #58705c;
+	white-space: normal;
+	margin: 0px;
+}
+
+#footer li {
+list-style-type: none;
+display: inline;
+}
+
+#footer li a {
+text-decoration: none;
+padding: 5px 5px 5px 10px;
+color: #58705c;
+}
+#footer li a:link {
+color: #58705c;
+}
+#footer li a:visited {
+color: #58705c;
+}
+#footer li a:hover {
+color: #fe7013;
+}
+
+
+#content {
+	font-size: 90%;
+	color: #666666;
+	line-height: 125%;
+}
+#breadcrumbs {
+	clear: both;
+}
+
+#breadcrumbs, #breadcrumbs a{
+	font-size: 10px;
+        text-decoration: none;
+	text-transform: uppercase;	
+	padding: 8px 0px;
+color: #E2631f;
+}
+
+#breadcrumbs a.pathway {color: #999999;}
+
+
+#leftcol {
+	float: left;
+	width: 220px;
+	margin-right: 20px;
+}
+
+#rightcol {
+	float: right;
+	width: 220px;
+	margin-left: 10px;}
+
+#saform_sub {
+	background-color: #DBE3D6;
+	background-image: url(../images/squares.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+	padding: 20px 5px 5px 5px;
+}
+#maincontent {
+	float:right;
+	/*clear: both;*/
+	width: 700px;
+}
+#maincontent_right {
+	padding-right:240px;
+}
+#maincontent h1 {
+	font-size: 90%;
+	color: #FFFFFF;
+	background-color: #521912;
+	padding: 10px;
+}
+#maincontent h2 {
+	font-size: 135%;
+	color: #92903B;
+}
+
+#maincontent_right h1 {
+	font-size: 120%;
+	color: #FF6600;
+}
+
+
+#content ul {
+	list-style-type: square;
+	list-style-image: url(../images/main_bullet.gif);
+	color: #666666;
+}
+
+#content ul ul{
+	list-style-type: square;
+	list-style-image: url(../images/sub_bullet.gif);
+	color: #666666;
+
+}
+
+/*left sidebar IO menu*/
+#content #leftmenu {
+	margin: 0 0 10px 0;
+	padding: 0;
+	width: 100%;
+	list-style-image: none;
+	list-style-type: none;
+}
+#content #leftmenu li {
+	margin: 0 0 2px 0;
+	background: #939598;
+	height: 25px;
+}
+
+#content #leftmenu li a {
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px 0 10px 5px;
+	line-height: 2em;
+}
+#content #leftmenu li a:hover,
+#content #leftmenu li.active a {
+	color: #e66221;
+}
+#content .moduletabletop p {
+	margin: 0 0 10px 0;
+}
+.moduletable-ioworld img {
+	position: absolute;
+	top: 5px;
+	right: 135px;
+}
+.moduletable-ioworld p {
+	margin: 0;
+}
